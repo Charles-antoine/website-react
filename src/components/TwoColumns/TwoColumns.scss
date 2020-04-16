@@ -1,0 +1,20 @@
+@import '../../styles/variables.scss';
+
+.twocolumns{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  .contImg{
+    background-size: cover;
+    width: 100vw;
+    height: 25vh;
+    @media only screen and (min-width: 768px) {
+      height: auto;
+    }
+
+  }
+  img{
+    width: 100%;
+  }
+
+}

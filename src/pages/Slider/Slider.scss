@@ -1,0 +1,28 @@
+// Required Core Stylesheet
+// @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+// Optional Theme Stylesheet
+// @import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+@import "../../../node_modules/slick-carousel/slick/slick.css";
+@import "../../../node_modules/slick-carousel/slick/slick-theme.css";
+
+.slick{
+  &-dots{
+    bottom:15px;
+  }
+  &-slide{
+    img{
+      min-width: 100%;
+      max-width: 100%;
+    }
+  }
+  &-prev{
+    left: 5px;
+    z-index: 10;    
+  }
+  &-next{
+    z-index: 10;    
+    right: 5px;
+  }
+}

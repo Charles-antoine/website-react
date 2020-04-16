@@ -1,0 +1,42 @@
+@import '../../styles/variables.scss';
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  background-color: $color-beige;
+  color:black;
+
+  .part {
+    &__left{
+
+    }
+    &__right{
+
+    }
+  }
+
+
+
+  .logo {
+    img{
+      display:inline-block;
+      max-width:100px;
+      min-width: 50px;
+      height: auto;
+    }
+  }
+  
+  .nav-links{
+    list-style: none;
+    padding:.5rem 1rem;
+    margin-right: 0rem;
+    
+    .is-active {
+      opacity:.5;
+      pointer-events: none;
+    }
+  }
+
+}

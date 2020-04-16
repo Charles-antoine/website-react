@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+.twocolumns{
+  // width: 100vw;
+  // height: 100vh;
+  // background-color: $color-pink;
+  // @include displayFlex();
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  .contImg{
+    background-size: cover;
+  }
+  img{
+    width: 100%;
+  }
+
+}

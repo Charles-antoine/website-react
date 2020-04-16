@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+.hero{
+  width: 100vw;
+  height: 100vh;
+  background-color: $color-pink;
+  @include displayFlex();
+
+  h1{
+    font-weight: bold;
+    color:$color-red;
+    font-size: 8rem;
+  }
+}
